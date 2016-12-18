@@ -48,7 +48,7 @@ ReactDOM.render(
       
       
     <![endif]*/}
-        <div className="main-loader" />
+        
         <section id="wrap">
           {/* Complete Wrap of Left and Right Side */}
           <div className="container-fluid">
