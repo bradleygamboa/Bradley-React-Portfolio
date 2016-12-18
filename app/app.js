@@ -2,11 +2,18 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
+// var Bootstrap = require('./Components/bootstrap.min.js')
+// var Jquery = require('./Components/jquery-2.1.4.min.js')
+// var JqueryB = require('./Components/jquery.backstretch.js')
+// var JqueryS = require('./Components/jquery.cbpFWSlider.js')
+// var Main = require('./Components/main.js')
+// var Modern = require('./Components/modernizr.custom.js')
+// var Slider = require('./Components/slider.js')
+
 // This code renders a simple HTML Div.
 // The key takeaway here is that we render an ENTIRE DIV. 
 // Note that ReactDOM.render cannot render a block of HTML elements witout them all fitting within a single div or container.
 ReactDOM.render(
-
 <div>
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
@@ -42,13 +49,8 @@ ReactDOM.render(
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css" />
         <link href="css/style.css" rel="stylesheet" />
         <link href="css/animate.css" rel="stylesheet" />
-        {/* HTML5 shiv and Respond.js for IE8 support of HTML5 elements and media queries */}
-        {/* WARNING: Respond.js doesn't work if you view the page via file:// */}
-        {/*[if lt IE 9]>
-      
-      
-    <![endif]*/}
         
+        <div className="main-loader"></div>
         <section id="wrap">
           {/* Complete Wrap of Left and Right Side */}
           <div className="container-fluid">

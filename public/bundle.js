@@ -50,6 +50,14 @@
 	var React = __webpack_require__(1);
 	var ReactDOM = __webpack_require__(158);
 
+	// var Bootstrap = require('./Components/bootstrap.min.js')
+	// var Jquery = require('./Components/jquery-2.1.4.min.js')
+	// var JqueryB = require('./Components/jquery.backstretch.js')
+	// var JqueryS = require('./Components/jquery.cbpFWSlider.js')
+	// var Main = require('./Components/main.js')
+	// var Modern = require('./Components/modernizr.custom.js')
+	// var Slider = require('./Components/slider.js')
+
 	// This code renders a simple HTML Div.
 	// The key takeaway here is that we render an ENTIRE DIV. 
 	// Note that ReactDOM.render cannot render a block of HTML elements witout them all fitting within a single div or container.

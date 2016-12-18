@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>LearnReact!</title>
-</head>
-
+    <meta charSet="utf-8" />
+    <title>Bradley Gamboa's Portfolio</title>
 <body>
 	
 	<!-- This is where React will deploy the contents it generates -->
@@ -12,6 +10,20 @@
 
 	<!-- All of our JS code will be transpiled into this bundle.js file -->
 	<script src="bundle.js"></script>
+	<script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.backstretch.js"></script>
+	<script src="js/jquery.cbpFWSlider.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+    $(function() {
+
+        $('#cbp-fwslider').cbpFWSlider();
+
+    });
+    $.backstretch("img/main2.jpg");
+    </script>
+
 	
 </body>
 </html>
