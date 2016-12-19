@@ -2,14 +2,6 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
-// var Bootstrap = require('./Components/bootstrap.min.js')
-// var Jquery = require('./Components/jquery-2.1.4.min.js')
-// var JqueryB = require('./Components/jquery.backstretch.js')
-// var JqueryS = require('./Components/jquery.cbpFWSlider.js')
-// var Main = require('./Components/main.js')
-// var Modern = require('./Components/modernizr.custom.js')
-// var Slider = require('./Components/slider.js')
-
 // This code renders a simple HTML Div.
 // The key takeaway here is that we render an ENTIRE DIV. 
 // Note that ReactDOM.render cannot render a block of HTML elements witout them all fitting within a single div or container.
@@ -19,29 +11,6 @@ ReactDOM.render(
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Bradley Gamboa's Portfolio</title>
-        {/* Fav icon*/}
-        <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png" />
-        <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png" />
-        <link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png" />
-        <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png" />
-        <link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png" />
-        <link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png" />
-        <link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png" />
-        <link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png" />
-        <link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png" />
-        <link rel="icon" type="image/png" sizes="192x192" href="img/android-icon-192x192.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png" />
-        <link rel="manifest" href="/manifest.json" />
-        <meta name="msapplication-TileColor" content="#ffffff" />
-        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
-        <meta name="theme-color" content="#ffffff" />
-        {/* Facebook Sharing Info */}
-        <meta property="og:title" content="Bradley Gamboa's Portfolio" />
-        <meta property="og:site_name" content="Bradley Gamboa" />
-        <meta property="og:description" content="Hello I am Bradley, and I am earning my certification with The Coding Boot Camp at UT Austin. I have an eye for detail and a passion for what I do. Doing my best is my #1 priority!" />
-        <meta property="og:image" content="img/bradley.jpg" />
         {/* Bootstrap */}
         <link href="css/bootstrap.min.css" rel="stylesheet" />
         <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
