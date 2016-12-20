@@ -6,19 +6,7 @@ var ReactDOM = require('react-dom');
 // The key takeaway here is that we render an ENTIRE DIV. 
 // Note that ReactDOM.render cannot render a block of HTML elements witout them all fitting within a single div or container.
 ReactDOM.render(
-<div>
-        <meta charSet="utf-8" />
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Bradley Gamboa's Portfolio</title>
-        {/* Bootstrap */}
-        <link href="css/bootstrap.min.css" rel="stylesheet" />
-        <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-        {/*Google fonts*/}
-        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css" />
-        <link href="css/style.css" rel="stylesheet" />
-        <link href="css/animate.css" rel="stylesheet" />
-        
+<div>        
         <div className="main-loader"></div>
         <section id="wrap">
           {/* Complete Wrap of Left and Right Side */}

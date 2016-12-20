@@ -56,19 +56,6 @@
 	ReactDOM.render(React.createElement(
 	  'div',
 	  null,
-	  React.createElement('meta', { charSet: 'utf-8' }),
-	  React.createElement('meta', { httpEquiv: 'X-UA-Compatible', content: 'IE=edge' }),
-	  React.createElement('meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }),
-	  React.createElement(
-	    'title',
-	    null,
-	    'Bradley Gamboa\'s Portfolio'
-	  ),
-	  React.createElement('link', { href: 'css/bootstrap.min.css', rel: 'stylesheet' }),
-	  React.createElement('link', { href: 'fonts/font-awesome/css/font-awesome.min.css', rel: 'stylesheet' }),
-	  React.createElement('link', { href: 'https://fonts.googleapis.com/css?family=Montserrat', rel: 'stylesheet', type: 'text/css' }),
-	  React.createElement('link', { href: 'css/style.css', rel: 'stylesheet' }),
-	  React.createElement('link', { href: 'css/animate.css', rel: 'stylesheet' }),
 	  React.createElement('div', { className: 'main-loader' }),
 	  React.createElement(
 	    'section',
