@@ -46,8 +46,8 @@
 			// total number of items
 			this.itemsCount = this.$items.length;
 			// support for CSS Transitions & transforms
-			this.support = Modernizr.csstransitions && Modernizr.csstransforms;
-			this.support3d = Modernizr.csstransforms3d;
+			// this.support = Modernizr.csstransitions && Modernizr.csstransforms;
+			// this.support3d = Modernizr.csstransforms3d;
 			// transition end event name and transform name
 			// transition end event name
 			var transEndEventNames = {
