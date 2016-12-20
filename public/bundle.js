@@ -46,12 +46,11 @@
 
 	'use strict';
 
-	// Include the Main React Dependencies
+	// Main React Dependencies
 	var React = __webpack_require__(1);
 	var ReactDOM = __webpack_require__(158);
 
 	// This code renders a simple HTML Div.
-	// The key takeaway here is that we render an ENTIRE DIV. 
 	// Note that ReactDOM.render cannot render a block of HTML elements witout them all fitting within a single div or container.
 	ReactDOM.render(React.createElement(
 	  'div',
@@ -254,28 +253,6 @@
 	                            React.createElement(
 	                              'h3',
 	                              { className: 'name' },
-	                              'Rebel Rebel Creative'
-	                            ),
-	                            React.createElement('img', { src: 'img/rebelrebel.jpg', style: { width: '70%' }, alt: 'Project 2' }),
-	                            React.createElement(
-	                              'p',
-	                              { className: 'desc' },
-	                              'Rebel Rebel Creative provides; Marketing, Design,',
-	                              React.createElement('br', null),
-	                              'and Strategies to help your business grow.'
-	                            ),
-	                            React.createElement(
-	                              'a',
-	                              { className: 'btn project', target: '_blank', href: 'http://www.rebelrebelcreative.com/' },
-	                              'Check it out'
-	                            )
-	                          ),
-	                          React.createElement(
-	                            'li',
-	                            null,
-	                            React.createElement(
-	                              'h3',
-	                              { className: 'name' },
 	                              'Elena Kanpp\'s Portofilo'
 	                            ),
 	                            React.createElement('img', { src: 'img/elenaknapp.jpg', style: { width: '70%' }, alt: 'Second Website' }),
@@ -302,7 +279,7 @@
 	                            React.createElement(
 	                              'h3',
 	                              { className: 'name' },
-	                              'www.Craftniss.com'
+	                              'Craftniss.com'
 	                            ),
 	                            React.createElement('img', { src: 'img/craftniss.png', style: { width: '70%' }, alt: 'Project 2' }),
 	                            React.createElement(
@@ -319,6 +296,50 @@
 	                            React.createElement(
 	                              'a',
 	                              { className: 'btn project', target: '_blank', href: 'http://www.craftniss.com' },
+	                              'Check it out'
+	                            )
+	                          ),
+	                          React.createElement(
+	                            'li',
+	                            null,
+	                            React.createElement(
+	                              'h3',
+	                              { className: 'name' },
+	                              'Rebel Rebel Creative'
+	                            ),
+	                            React.createElement('img', { src: 'img/rebelrebel.jpg', style: { width: '70%' }, alt: 'Project 2' }),
+	                            React.createElement(
+	                              'p',
+	                              { className: 'desc' },
+	                              'Rebel Rebel Creative provides; Marketing, Design,',
+	                              React.createElement('br', null),
+	                              'and Strategies to help your business grow.'
+	                            ),
+	                            React.createElement(
+	                              'a',
+	                              { className: 'btn project', target: '_blank', href: 'http://www.rebelrebelcreative.com/' },
+	                              'Check it out'
+	                            )
+	                          ),
+	                          React.createElement(
+	                            'li',
+	                            null,
+	                            React.createElement(
+	                              'h3',
+	                              { className: 'name' },
+	                              'Let\'s Make A Meal'
+	                            ),
+	                            React.createElement('img', { src: 'img/letsmakeameal.jpg', style: { width: '70%' }, alt: 'Project 2' }),
+	                            React.createElement(
+	                              'p',
+	                              { className: 'desc' },
+	                              'Rebel Rebel Creative provides; Marketing, Design,',
+	                              React.createElement('br', null),
+	                              'and Strategies to help your business grow.'
+	                            ),
+	                            React.createElement(
+	                              'a',
+	                              { className: 'btn project', target: '_blank', href: 'http://www.rebelrebelcreative.com/' },
 	                              'Check it out'
 	                            )
 	                          ),
@@ -887,7 +908,7 @@
 	      )
 	    )
 	  )
-	), document.getElementById('app'));
+	), document.getElementById('website'));
 
 /***/ },
 /* 1 */

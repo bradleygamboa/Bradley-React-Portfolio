@@ -1,9 +1,8 @@
-// Include the Main React Dependencies
+// Main React Dependencies
 var React = require('react');
 var ReactDOM = require('react-dom');
 
 // This code renders a simple HTML Div.
-// The key takeaway here is that we render an ENTIRE DIV. 
 // Note that ReactDOM.render cannot render a block of HTML elements witout them all fitting within a single div or container.
 ReactDOM.render(
 <div>        
@@ -93,13 +92,6 @@ ReactDOM.render(
                                   <a className="btn project" target="_blank" href="http://www.vinylbeautystudio.com">Check it out</a>
                                 </li>
                                 <li>
-                                  <h3 className="name">Rebel Rebel Creative</h3>
-                                  <img src="img/rebelrebel.jpg" style={{width: '70%'}} alt="Project 2" />
-                                  <p className="desc">Rebel Rebel Creative provides; Marketing, Design,
-                                    <br />and Strategies to help your business grow.</p>
-                                  <a className="btn project" target="_blank" href="http://www.rebelrebelcreative.com/">Check it out</a>
-                                </li>
-                                <li>
                                   <h3 className="name">Elena Kanpp's Portofilo</h3>
                                   <img src="img/elenaknapp.jpg" style={{width: '70%'}} alt="Second Website" />
                                   <p className="desc">I met Elena while living in Austin, TX.
@@ -109,13 +101,27 @@ ReactDOM.render(
                                   <a className="btn project" target="_blank" href="http://www.elenaknapp.us">Check it out</a>
                                 </li>
                                 <li>
-                                  <h3 className="name">www.Craftniss.com</h3>
+                                  <h3 className="name">Craftniss.com</h3>
                                   <img src="img/craftniss.png" style={{width: '70%'}} alt="Project 2" />
                                   <p className="desc">A very good friend of mine wanted
                                     <br />to create a website where she could show off
                                     <br />her baby shoe making skills. With her talent
                                     <br />we joined up to create this work of art.</p>
                                   <a className="btn project" target="_blank" href="http://www.craftniss.com">Check it out</a>
+                                </li>
+                                <li>
+                                  <h3 className="name">Rebel Rebel Creative</h3>
+                                  <img src="img/rebelrebel.jpg" style={{width: '70%'}} alt="Project 2" />
+                                  <p className="desc">Rebel Rebel Creative provides; Marketing, Design,
+                                    <br />and Strategies to help your business grow.</p>
+                                  <a className="btn project" target="_blank" href="http://www.rebelrebelcreative.com/">Check it out</a>
+                                </li>
+                                <li>
+                                  <h3 className="name">Let's Make A Meal</h3>
+                                  <img src="img/letsmakeameal.jpg" style={{width: '70%'}} alt="Project 2" />
+                                  <p className="desc">Rebel Rebel Creative provides; Marketing, Design,
+                                    <br />and Strategies to help your business grow.</p>
+                                  <a className="btn project" target="_blank" href="http://www.rebelrebelcreative.com/">Check it out</a>
                                 </li>
                                 <li>
                                   <h3 className="name">Doctor Who Hangman</h3>
@@ -351,5 +357,5 @@ ReactDOM.render(
         {/* Navigation End */}
         {/* jQuery */}
       </div>,
-	document.getElementById('app')
+	document.getElementById('website')
 )
