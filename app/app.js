@@ -119,9 +119,9 @@ ReactDOM.render(
                                 <li>
                                   <h3 className="name">Let's Make A Meal</h3>
                                   <img src="img/letsmakeameal.jpg" style={{width: '70%'}} alt="Project 2" />
-                                  <p className="desc">Rebel Rebel Creative provides; Marketing, Design,
-                                    <br />and Strategies to help your business grow.</p>
-                                  <a className="btn project" target="_blank" href="http://www.rebelrebelcreative.com/">Check it out</a>
+                                  <p className="desc">Let's Make a meal is a class project that utilizes
+                                    <br />a API to allow you to search for recipes by ingredients.</p>
+                                  <a className="btn project" target="_blank" href="https://lets-make-a-meal-deal.herokuapp.com/">Check it out</a>
                                 </li>
                                 <li>
                                   <h3 className="name">Doctor Who Hangman</h3>

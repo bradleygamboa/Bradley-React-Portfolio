@@ -333,13 +333,13 @@
 	                            React.createElement(
 	                              'p',
 	                              { className: 'desc' },
-	                              'Rebel Rebel Creative provides; Marketing, Design,',
+	                              'Let\'s Make a meal is a class project that utilizes',
 	                              React.createElement('br', null),
-	                              'and Strategies to help your business grow.'
+	                              'a API to allow you to search for recipes by ingredients.'
 	                            ),
 	                            React.createElement(
 	                              'a',
-	                              { className: 'btn project', target: '_blank', href: 'http://www.rebelrebelcreative.com/' },
+	                              { className: 'btn project', target: '_blank', href: 'https://lets-make-a-meal-deal.herokuapp.com/' },
 	                              'Check it out'
 	                            )
 	                          ),
