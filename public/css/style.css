@@ -774,6 +774,27 @@ Right Home
     transition: box-shadow 0.2s ease-in-out;
 }
 
+a{
+    color: white;
+    text-decoration: underline;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+
 a.btn {
     border: 1px solid #fff;
     border-radius: 30px;

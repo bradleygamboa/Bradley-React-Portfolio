@@ -156,23 +156,23 @@
 	                      { className: 'socials-icons-list padding-zero' },
 	                      React.createElement(
 	                        'a',
-	                        { href: 'http://www.linkedin.com/in/bradleygamboa', target: '_blank', className: 'icon1', 'data-toggle': 'tooltip', 'data-placement': 'top', title: 'Linkedin' },
-	                        React.createElement('i', { className: 'fa fa-linkedin' })
-	                      ),
-	                      React.createElement(
-	                        'a',
 	                        { href: 'http://www.github.com/bradleygamboa', target: '_blank', className: 'icon2', 'data-toggle': 'tooltip', 'data-placement': 'top', title: 'Github' },
 	                        React.createElement('i', { className: 'fa fa-github' })
 	                      ),
 	                      React.createElement(
 	                        'a',
-	                        { href: 'http://www.dribbble.com/bradleygamboa', target: '_blank', className: 'icon3', 'data-toggle': 'tooltip', 'data-placement': 'top', title: true },
-	                        React.createElement('i', { className: 'fa fa-dribbble' })
+	                        { href: 'http://www.linkedin.com/in/bradleygamboa', target: '_blank', className: 'icon1', 'data-toggle': 'tooltip', 'data-placement': 'top', title: 'Linkedin' },
+	                        React.createElement('i', { className: 'fa fa-linkedin' })
 	                      ),
 	                      React.createElement(
 	                        'a',
-	                        { href: 'https://www.codepen.io/bradleygamboa/', target: '_blank', className: 'icon4', 'data-toggle': 'tooltip', 'data-placement': 'top', title: true },
-	                        React.createElement('i', { className: 'fa fa-codepen' })
+	                        { href: 'http://stackexchange.com/users/8923664/bradley-gamboa', target: '_blank', className: 'icon3', 'data-toggle': 'tooltip', 'data-placement': 'top', title: true },
+	                        React.createElement('i', { className: 'fa fa-stack-overflow' })
+	                      ),
+	                      React.createElement(
+	                        'a',
+	                        { href: 'https://www.dropbox.com/s/nhdj45a4mx6nb82/Bradleyresume.pdf?dl=0', target: '_blank', className: 'icon4', 'data-toggle': 'tooltip', 'data-placement': 'top', title: true },
+	                        React.createElement('i', { className: 'fa fa-file-pdf-o' })
 	                      )
 	                    )
 	                  ),
@@ -279,7 +279,7 @@
 	                            React.createElement(
 	                              'h3',
 	                              { className: 'name' },
-	                              'Craftniss.com'
+	                              'www.Craftniss.com'
 	                            ),
 	                            React.createElement('img', { src: 'img/craftniss.png', style: { width: '70%' }, alt: 'Project 2' }),
 	                            React.createElement(
@@ -305,20 +305,28 @@
 	                            React.createElement(
 	                              'h3',
 	                              { className: 'name' },
-	                              'Rebel Rebel Creative'
+	                              'Mars Explorer'
 	                            ),
-	                            React.createElement('img', { src: 'img/rebelrebel.jpg', style: { width: '70%' }, alt: 'Project 2' }),
+	                            React.createElement('img', { src: 'img/nasa.jpg', style: { width: '70%' }, alt: 'Project 2' }),
 	                            React.createElement(
 	                              'p',
 	                              { className: 'desc' },
-	                              'Rebel Rebel Creative provides; Marketing, Design,',
+	                              'Another group project where we utilize',
 	                              React.createElement('br', null),
-	                              'and Strategies to help your business grow.'
+	                              'NASA\'s API to allow access images sent to Earth',
+	                              React.createElement('br', null),
+	                              ' from the 3 Mars Rovers. The same API is also',
+	                              React.createElement('br', null),
+	                              ' used to display a different Picture of the Day.',
+	                              React.createElement('br', null),
+	                              ' We also used a Wikipedia API to call the descriptions',
+	                              React.createElement('br', null),
+	                              ' of each of the Rovers.'
 	                            ),
 	                            React.createElement(
 	                              'a',
-	                              { className: 'btn project', target: '_blank', href: 'http://www.rebelrebelcreative.com/' },
-	                              'Check it out'
+	                              { className: 'btn project', target: '_blank', href: 'https://space-explorer.herokuapp.com/' },
+	                              'Come Explore Mars'
 	                            )
 	                          ),
 	                          React.createElement(
@@ -340,7 +348,7 @@
 	                            React.createElement(
 	                              'a',
 	                              { className: 'btn project', target: '_blank', href: 'https://lets-make-a-meal-deal.herokuapp.com/' },
-	                              'Check it out'
+	                              'Let\'s make a meal'
 	                            )
 	                          ),
 	                          React.createElement(
@@ -351,48 +359,30 @@
 	                              { className: 'name' },
 	                              'Doctor Who Hangman'
 	                            ),
-	                            React.createElement('img', { src: 'img/doctorwhodiamond.jpg', style: { width: '70%' }, alt: 'Project 2' }),
+	                            React.createElement('img', { src: 'img/doctorwho.jpg', style: { width: '70%' }, alt: 'Project 2' }),
 	                            React.createElement(
 	                              'p',
 	                              { className: 'desc' },
-	                              'In this project I created Hangman',
+	                              'I created Hangman many of you will',
 	                              React.createElement('br', null),
-	                              'game like you remember as a child. I added',
+	                              'remember playing as a child. I added a',
 	                              React.createElement('br', null),
-	                              'a Doctor Who twist to it as the nerd inside',
+	                              'Doctor Who twist to it as the nerd inside',
 	                              React.createElement('br', null),
-	                              'me comes out in my projects.'
+	                              'me comes out in my projects. I also',
+	                              React.createElement('br', null),
+	                              'made a Node.js version ',
+	                              React.createElement(
+	                                'a',
+	                                { href: 'https://github.com/bradleygamboa/Hangman-Node-App', target: '_blank' },
+	                                'here'
+	                              ),
+	                              '.'
 	                            ),
 	                            React.createElement(
 	                              'a',
 	                              { className: 'btn project', target: '_blank', href: 'https://doctor-who-hangman.herokuapp.com/' },
-	                              'Check it out'
-	                            )
-	                          ),
-	                          React.createElement(
-	                            'li',
-	                            null,
-	                            React.createElement(
-	                              'h3',
-	                              { className: 'name' },
-	                              'Final Fantasy Crystal Game'
-	                            ),
-	                            React.createElement('img', { src: 'img/finalfantasy.jpg', style: { width: '70%' }, alt: 'Project 3' }),
-	                            React.createElement(
-	                              'p',
-	                              { className: 'desc' },
-	                              'Are you ready to save the world',
-	                              React.createElement('br', null),
-	                              'from the clutches of Sephiroth. Join Cloud,',
-	                              React.createElement('br', null),
-	                              'Barret, Tifa, and company to destroy evil once',
-	                              React.createElement('br', null),
-	                              'and for all. Lets go!'
-	                            ),
-	                            React.createElement(
-	                              'a',
-	                              { className: 'btn project', target: '_blank', href: 'https://final-fantasy-crystals-game.herokuapp.com/' },
-	                              'Check it out'
+	                              'HTML/JavaScript version'
 	                            )
 	                          ),
 	                          React.createElement(
@@ -409,12 +399,38 @@
 	                              { className: 'desc' },
 	                              'Test your Rock n Roll knowledge.',
 	                              React.createElement('br', null),
-	                              'How hard do you rock!?'
+	                              'How hard do you rock!? This app was made',
+	                              React.createElement('br', null),
+	                              ' with HTML, CSS, and Javascript.'
 	                            ),
 	                            React.createElement(
 	                              'a',
 	                              { className: 'btn project', target: '_blank', href: 'https://rock-n-roll-triva-game.herokuapp.com/' },
-	                              'Check it out'
+	                              'Ready to rock?'
+	                            )
+	                          ),
+	                          React.createElement(
+	                            'li',
+	                            null,
+	                            React.createElement(
+	                              'h3',
+	                              { className: 'name' },
+	                              'Train Scheduler'
+	                            ),
+	                            React.createElement('img', { src: 'img/train.jpg', style: { width: '70%' }, alt: 'Project 4' }),
+	                            React.createElement(
+	                              'p',
+	                              { className: 'desc' },
+	                              'This Train Scheduler app uses Firebase',
+	                              React.createElement('br', null),
+	                              'to tack in real time when the next train will',
+	                              React.createElement('br', null),
+	                              'arrive. You can even add your own.'
+	                            ),
+	                            React.createElement(
+	                              'a',
+	                              { className: 'btn project', target: '_blank', href: 'https://train-scheduler.herokuapp.com/' },
+	                              'Book your ride'
 	                            )
 	                          )
 	                        )
@@ -484,11 +500,11 @@
 	                            { className: 'progress' },
 	                            React.createElement(
 	                              'div',
-	                              { className: 'progress-bar', role: 'progressbar', 'aria-valuenow': 50, 'aria-valuemin': 0, 'aria-valuemax': 100, style: { width: '95%' } },
+	                              { className: 'progress-bar', role: 'progressbar', 'aria-valuenow': 50, 'aria-valuemin': 0, 'aria-valuemax': 100, style: { width: '99%' } },
 	                              React.createElement(
 	                                'span',
 	                                null,
-	                                '95%'
+	                                '99%'
 	                              )
 	                            )
 	                          )
@@ -506,11 +522,11 @@
 	                            { className: 'progress' },
 	                            React.createElement(
 	                              'div',
-	                              { className: 'progress-bar', role: 'progressbar', 'aria-valuenow': 50, 'aria-valuemin': 0, 'aria-valuemax': 100, style: { width: '95%' } },
+	                              { className: 'progress-bar', role: 'progressbar', 'aria-valuenow': 50, 'aria-valuemin': 0, 'aria-valuemax': 100, style: { width: '99%' } },
 	                              React.createElement(
 	                                'span',
 	                                null,
-	                                '95%'
+	                                '99%'
 	                              )
 	                            )
 	                          )
@@ -532,6 +548,28 @@
 	                            { className: 'progress' },
 	                            React.createElement(
 	                              'div',
+	                              { className: 'progress-bar', role: 'progressbar', 'aria-valuenow': 50, 'aria-valuemin': 0, 'aria-valuemax': 100, style: { width: '99%' } },
+	                              React.createElement(
+	                                'span',
+	                                null,
+	                                '99%'
+	                              )
+	                            )
+	                          )
+	                        ),
+	                        React.createElement(
+	                          'div',
+	                          { className: 'col-md-6' },
+	                          React.createElement(
+	                            'h5',
+	                            null,
+	                            'Javascript/Jquery'
+	                          ),
+	                          React.createElement(
+	                            'div',
+	                            { className: 'progress' },
+	                            React.createElement(
+	                              'div',
 	                              { className: 'progress-bar', role: 'progressbar', 'aria-valuenow': 50, 'aria-valuemin': 0, 'aria-valuemax': 100, style: { width: '90%' } },
 	                              React.createElement(
 	                                'span',
@@ -547,7 +585,7 @@
 	                          React.createElement(
 	                            'h5',
 	                            null,
-	                            'Javascript/Jquery'
+	                            'MongoDB'
 	                          ),
 	                          React.createElement(
 	                            'div',
@@ -569,28 +607,6 @@
 	                          React.createElement(
 	                            'h5',
 	                            null,
-	                            'Mongob'
-	                          ),
-	                          React.createElement(
-	                            'div',
-	                            { className: 'progress' },
-	                            React.createElement(
-	                              'div',
-	                              { className: 'progress-bar', role: 'progressbar', 'aria-valuenow': 50, 'aria-valuemin': 0, 'aria-valuemax': 100, style: { width: '75%' } },
-	                              React.createElement(
-	                                'span',
-	                                null,
-	                                '75%'
-	                              )
-	                            )
-	                          )
-	                        ),
-	                        React.createElement(
-	                          'div',
-	                          { className: 'col-md-6' },
-	                          React.createElement(
-	                            'h5',
-	                            null,
 	                            'Express'
 	                          ),
 	                          React.createElement(
@@ -598,11 +614,11 @@
 	                            { className: 'progress' },
 	                            React.createElement(
 	                              'div',
-	                              { className: 'progress-bar', role: 'progressbar', 'aria-valuenow': 50, 'aria-valuemin': 0, 'aria-valuemax': 100, style: { width: '75%' } },
+	                              { className: 'progress-bar', role: 'progressbar', 'aria-valuenow': 50, 'aria-valuemin': 0, 'aria-valuemax': 100, style: { width: '80%' } },
 	                              React.createElement(
 	                                'span',
 	                                null,
-	                                '75%'
+	                                '80%'
 	                              )
 	                            )
 	                          )
@@ -624,11 +640,11 @@
 	                            { className: 'progress' },
 	                            React.createElement(
 	                              'div',
-	                              { className: 'progress-bar', role: 'progressbar', 'aria-valuenow': 50, 'aria-valuemin': 0, 'aria-valuemax': 100, style: { width: '75%' } },
+	                              { className: 'progress-bar', role: 'progressbar', 'aria-valuenow': 50, 'aria-valuemin': 0, 'aria-valuemax': 100, style: { width: '80%' } },
 	                              React.createElement(
 	                                'span',
 	                                null,
-	                                '75%'
+	                                '80%'
 	                              )
 	                            )
 	                          )
@@ -691,11 +707,11 @@
 	                          { className: 'col-lg-6 col-md-6 col-sm-6 col-xs-12' },
 	                          React.createElement(
 	                            'div',
-	                            { className: 'address-wrap animated fadeIndown' },
+	                            { className: 'address-wrap animated fadeIndown1' },
 	                            React.createElement(
 	                              'div',
 	                              { className: 'col-md-3 icon-block' },
-	                              React.createElement('i', { className: 'fa fa-phone add-icon' })
+	                              React.createElement('i', { className: 'fa fa-phone fa-2x' })
 	                            ),
 	                            React.createElement(
 	                              'div',
@@ -703,12 +719,12 @@
 	                              React.createElement(
 	                                'span',
 	                                { className: 'margin-top' },
-	                                'Mobile phone: 512-577-0631'
-	                              ),
-	                              React.createElement(
-	                                'span',
-	                                { className: 'margin-top' },
-	                                'Alt phone: 512-767-9637'
+	                                'Phone Number:',
+	                                React.createElement(
+	                                  'a',
+	                                  { href: 'tel:512-577-0631' },
+	                                  ' 512-577-0631'
+	                                )
 	                              )
 	                            )
 	                          )
@@ -722,7 +738,7 @@
 	                            React.createElement(
 	                              'div',
 	                              { className: 'col-md-3 icon-block' },
-	                              React.createElement('i', { className: 'fa fa-envelope add-icon' })
+	                              React.createElement('i', { className: 'fa fa-envelope fa-2x' })
 	                            ),
 	                            React.createElement(
 	                              'div',
@@ -730,12 +746,12 @@
 	                              React.createElement(
 	                                'span',
 	                                { className: 'margin-top add-mail' },
-	                                'bradleygamboa@gmail.com'
-	                              ),
-	                              React.createElement(
-	                                'span',
-	                                { className: 'margin-top add-mail' },
-	                                'bradleygamboa@icloud.com'
+	                                'Email Address: ',
+	                                React.createElement(
+	                                  'a',
+	                                  { href: 'mailto:bradleygamboa@gmail.com', target: '_top' },
+	                                  'bradleygamboa@gmail.com'
+	                                )
 	                              )
 	                            )
 	                          )
@@ -867,7 +883,7 @@
 	    React.createElement(
 	      'div',
 	      { className: 'navbar-btn-info' },
-	      'Click on below buttons to know more!'
+	      'Click on below buttons to learn more!'
 	    ),
 	    React.createElement(
 	      'nav',

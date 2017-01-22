@@ -5,8 +5,8 @@ var ReactDOM = require('react-dom');
 // This code renders a simple HTML Div.
 // Note that ReactDOM.render cannot render a block of HTML elements witout them all fitting within a single div or container.
 ReactDOM.render(
-<div>        
-        <div className="main-loader"></div>
+<div>
+        <div className="main-loader" />
         <section id="wrap">
           {/* Complete Wrap of Left and Right Side */}
           <div className="container-fluid">
@@ -51,10 +51,10 @@ ReactDOM.render(
                         <div className="socials-icons">
                           {/* Social Icons */}
                           <div className="socials-icons-list padding-zero">
-                            <a href="http://www.linkedin.com/in/bradleygamboa" target="_blank" className="icon1" data-toggle="tooltip" data-placement="top" title="Linkedin"><i className="fa fa-linkedin" /></a>
                             <a href="http://www.github.com/bradleygamboa" target="_blank" className="icon2" data-toggle="tooltip" data-placement="top" title="Github"><i className="fa fa-github" /></a>
-                            <a href="http://www.dribbble.com/bradleygamboa" target="_blank" className="icon3" data-toggle="tooltip" data-placement="top" title><i className="fa fa-dribbble" /></a>
-                            <a href="https://www.codepen.io/bradleygamboa/" target="_blank" className="icon4" data-toggle="tooltip" data-placement="top" title><i className="fa fa-codepen" /></a>
+                            <a href="http://www.linkedin.com/in/bradleygamboa" target="_blank" className="icon1" data-toggle="tooltip" data-placement="top" title="Linkedin"><i className="fa fa-linkedin" /></a>
+                            <a href="http://stackexchange.com/users/8923664/bradley-gamboa" target="_blank" className="icon3" data-toggle="tooltip" data-placement="top" title><i className="fa fa-stack-overflow" /></a>
+                            <a href="https://www.dropbox.com/s/nhdj45a4mx6nb82/Bradleyresume.pdf?dl=0" target="_blank" className="icon4" data-toggle="tooltip" data-placement="top" title><i className="fa fa-file-pdf-o" /></a>
                           </div>
                         </div>
                         {/* Social Icons */}
@@ -101,7 +101,7 @@ ReactDOM.render(
                                   <a className="btn project" target="_blank" href="http://www.elenaknapp.us">Check it out</a>
                                 </li>
                                 <li>
-                                  <h3 className="name">Craftniss.com</h3>
+                                  <h3 className="name">www.Craftniss.com</h3>
                                   <img src="img/craftniss.png" style={{width: '70%'}} alt="Project 2" />
                                   <p className="desc">A very good friend of mine wanted
                                     <br />to create a website where she could show off
@@ -110,43 +110,48 @@ ReactDOM.render(
                                   <a className="btn project" target="_blank" href="http://www.craftniss.com">Check it out</a>
                                 </li>
                                 <li>
-                                  <h3 className="name">Rebel Rebel Creative</h3>
-                                  <img src="img/rebelrebel.jpg" style={{width: '70%'}} alt="Project 2" />
-                                  <p className="desc">Rebel Rebel Creative provides; Marketing, Design,
-                                    <br />and Strategies to help your business grow.</p>
-                                  <a className="btn project" target="_blank" href="http://www.rebelrebelcreative.com/">Check it out</a>
+                                  <h3 className="name">Mars Explorer</h3>
+                                  <img src="img/nasa.jpg" style={{width: '70%'}} alt="Project 2" />
+                                  <p className="desc">Another group project where we utilize
+                                    <br />NASA's API to allow access images sent to Earth
+                                    <br /> from the 3 Mars Rovers. The same API is also 
+                                    <br /> used to display a different Picture of the Day.
+                                    <br /> We also used a Wikipedia API to call the descriptions
+                                    <br /> of each of the Rovers.</p>
+                                  <a className="btn project" target="_blank" href="https://space-explorer.herokuapp.com/">Come Explore Mars</a>
                                 </li>
                                 <li>
                                   <h3 className="name">Let's Make A Meal</h3>
                                   <img src="img/letsmakeameal.jpg" style={{width: '70%'}} alt="Project 2" />
                                   <p className="desc">Let's Make a meal is a class project that utilizes
                                     <br />a API to allow you to search for recipes by ingredients.</p>
-                                  <a className="btn project" target="_blank" href="https://lets-make-a-meal-deal.herokuapp.com/">Check it out</a>
+                                  <a className="btn project" target="_blank" href="https://lets-make-a-meal-deal.herokuapp.com/">Let's make a meal</a>
                                 </li>
                                 <li>
                                   <h3 className="name">Doctor Who Hangman</h3>
-                                  <img src="img/doctorwhodiamond.jpg" style={{width: '70%'}} alt="Project 2" />
-                                  <p className="desc">In this project I created Hangman
-                                    <br />game like you remember as a child. I added
-                                    <br />a Doctor Who twist to it as the nerd inside
-                                    <br />me comes out in my projects.</p>
-                                  <a className="btn project" target="_blank" href="https://doctor-who-hangman.herokuapp.com/">Check it out</a>
-                                </li>
-                                <li>
-                                  <h3 className="name">Final Fantasy Crystal Game</h3>
-                                  <img src="img/finalfantasy.jpg" style={{width: '70%'}} alt="Project 3" />
-                                  <p className="desc">Are you ready to save the world
-                                    <br />from the clutches of Sephiroth. Join Cloud,
-                                    <br />Barret, Tifa, and company to destroy evil once
-                                    <br />and for all. Lets go!</p>
-                                  <a className="btn project" target="_blank" href="https://final-fantasy-crystals-game.herokuapp.com/">Check it out</a>
+                                  <img src="img/doctorwho.jpg" style={{width: '70%'}} alt="Project 2" />
+                                  <p className="desc">I created Hangman many of you will
+                                    <br />remember playing as a child. I added a
+                                    <br />Doctor Who twist to it as the nerd inside
+                                    <br />me comes out in my projects. I also
+                                    <br />made a Node.js version <a href="https://github.com/bradleygamboa/Hangman-Node-App" target="_blank">here</a>.</p>
+                                  <a className="btn project" target="_blank" href="https://doctor-who-hangman.herokuapp.com/">HTML/JavaScript version</a>
                                 </li>
                                 <li>
                                   <h3 className="name">Rock n Roll Triva</h3>
                                   <img src="img/rocknroll.jpg" style={{width: '70%'}} alt="Project 4" />
                                   <p className="desc">Test your Rock n Roll knowledge.
-                                    <br />How hard do you rock!?</p>
-                                  <a className="btn project" target="_blank" href="https://rock-n-roll-triva-game.herokuapp.com/">Check it out</a>
+                                    <br />How hard do you rock!? This app was made
+                                    <br /> with HTML, CSS, and Javascript.</p>
+                                  <a className="btn project" target="_blank" href="https://rock-n-roll-triva-game.herokuapp.com/">Ready to rock?</a>
+                                </li>
+                                <li>
+                                  <h3 className="name">Train Scheduler</h3>
+                                  <img src="img/train.jpg" style={{width: '70%'}} alt="Project 4" />
+                                  <p className="desc">This Train Scheduler app uses Firebase
+                                    <br />to tack in real time when the next train will
+                                    <br />arrive. You can even add your own.</p>
+                                  <a className="btn project" target="_blank" href="https://train-scheduler.herokuapp.com/">Book your ride</a>
                                 </li>
                               </ul>
                             </div>
@@ -183,16 +188,16 @@ ReactDOM.render(
                               <div className="col-md-6">
                                 <h5>HTML5</h5>
                                 <div className="progress">
-                                  <div className="progress-bar" role="progressbar" aria-valuenow={50} aria-valuemin={0} aria-valuemax={100} style={{width: '95%'}}>
-                                    <span>95%</span>
+                                  <div className="progress-bar" role="progressbar" aria-valuenow={50} aria-valuemin={0} aria-valuemax={100} style={{width: '99%'}}>
+                                    <span>99%</span>
                                   </div>
                                 </div>
                               </div>
                               <div className="col-md-6">
                                 <h5>CSS3</h5>
                                 <div className="progress">
-                                  <div className="progress-bar" role="progressbar" aria-valuenow={50} aria-valuemin={0} aria-valuemax={100} style={{width: '95%'}}>
-                                    <span>95%</span>
+                                  <div className="progress-bar" role="progressbar" aria-valuenow={50} aria-valuemin={0} aria-valuemax={100} style={{width: '99%'}}>
+                                    <span>99%</span>
                                   </div>
                                 </div>
                               </div>
@@ -201,33 +206,33 @@ ReactDOM.render(
                               <div className="col-md-6">
                                 <h5>Bootstrap</h5>
                                 <div className="progress">
-                                  <div className="progress-bar" role="progressbar" aria-valuenow={50} aria-valuemin={0} aria-valuemax={100} style={{width: '90%'}}>
-                                    <span>90%</span>
+                                  <div className="progress-bar" role="progressbar" aria-valuenow={50} aria-valuemin={0} aria-valuemax={100} style={{width: '99%'}}>
+                                    <span>99%</span>
                                   </div>
                                 </div>
                               </div>
                               <div className="col-md-6">
                                 <h5>Javascript/Jquery</h5>
                                 <div className="progress">
-                                  <div className="progress-bar" role="progressbar" aria-valuenow={50} aria-valuemin={0} aria-valuemax={100} style={{width: '80%'}}>
-                                    <span>80%</span>
+                                  <div className="progress-bar" role="progressbar" aria-valuenow={50} aria-valuemin={0} aria-valuemax={100} style={{width: '90%'}}>
+                                    <span>90%</span>
                                   </div>
                                 </div>
                               </div>
                               {/* Second set of skills */}
                               <div className="col-md-6">
-                                <h5>Mongob</h5>
+                                <h5>MongoDB</h5>
                                 <div className="progress">
-                                  <div className="progress-bar" role="progressbar" aria-valuenow={50} aria-valuemin={0} aria-valuemax={100} style={{width: '75%'}}>
-                                    <span>75%</span>
+                                  <div className="progress-bar" role="progressbar" aria-valuenow={50} aria-valuemin={0} aria-valuemax={100} style={{width: '80%'}}>
+                                    <span>80%</span>
                                   </div>
                                 </div>
                               </div>
                               <div className="col-md-6">
                                 <h5>Express</h5>
                                 <div className="progress">
-                                  <div className="progress-bar" role="progressbar" aria-valuenow={50} aria-valuemin={0} aria-valuemax={100} style={{width: '75%'}}>
-                                    <span>75%</span>
+                                  <div className="progress-bar" role="progressbar" aria-valuenow={50} aria-valuemin={0} aria-valuemax={100} style={{width: '80%'}}>
+                                    <span>80%</span>
                                   </div>
                                 </div>
                               </div>
@@ -236,8 +241,8 @@ ReactDOM.render(
                               <div className="col-md-6">
                                 <h5>React</h5>
                                 <div className="progress">
-                                  <div className="progress-bar" role="progressbar" aria-valuenow={50} aria-valuemin={0} aria-valuemax={100} style={{width: '75%'}}>
-                                    <span>75%</span>
+                                  <div className="progress-bar" role="progressbar" aria-valuenow={50} aria-valuemin={0} aria-valuemax={100} style={{width: '80%'}}>
+                                    <span>80%</span>
                                   </div>
                                 </div>
                               </div>
@@ -264,20 +269,18 @@ ReactDOM.render(
                             </p>
                             <div className="row">
                               <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <div className="address-wrap animated fadeIndown">
-                                  <div className="col-md-3 icon-block"><i className="fa fa-phone add-icon" /></div>
+                                <div className="address-wrap animated fadeIndown1">
+                                  <div className="col-md-3 icon-block"><i className="fa fa-phone fa-2x" /></div>
                                   <div style={{float: 'left'}}>
-                                    <span className="margin-top">Mobile phone: 512-577-0631</span>
-                                    <span className="margin-top">Alt phone: 512-767-9637</span>
+                                    <span className="margin-top">Phone Number:<a href="tel:512-577-0631"> 512-577-0631</a></span>
                                   </div>
                                 </div>
                               </div>
                               <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                 <div className="address-wrap animated fadeIndown1">
-                                  <div className="col-md-3 icon-block"><i className="fa fa-envelope add-icon" /></div>
+                                  <div className="col-md-3 icon-block"><i className="fa fa-envelope fa-2x" /></div>
                                   <div style={{float: 'left'}}>
-                                    <span className="margin-top add-mail">bradleygamboa@gmail.com</span>
-                                    <span className="margin-top add-mail">bradleygamboa@icloud.com</span>
+                                    <span className="margin-top add-mail">Email Address: <a href="mailto:bradleygamboa@gmail.com" target="_top">bradleygamboa@gmail.com</a></span>
                                   </div>
                                 </div>
                               </div>
@@ -345,7 +348,7 @@ ReactDOM.render(
         {/* ********** */}
         <div className="overlay overlay-me">
           {/* Navigation Buttons */}
-          <div className="navbar-btn-info">Click on below buttons to know more!</div>
+          <div className="navbar-btn-info">Click on below buttons to learn more!</div>
           <nav className="navbar-btn">
             <ul>
               <li className="menu-btn" data-menu={1}><a className="menu"><i className="fa fa-user" />ABOUT ME</a></li>
@@ -354,8 +357,6 @@ ReactDOM.render(
             </ul>
           </nav>
         </div>
-        {/* Navigation End */}
-        {/* jQuery */}
       </div>,
 	document.getElementById('website')
 )
