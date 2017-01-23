@@ -271,7 +271,7 @@ ReactDOM.render(
                               <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                 <div className="address-wrap animated fadeIndown1">
                                   <div className="col-md-3 icon-block"><i className="fa fa-phone fa-2x" /></div>
-                                  <div style={{float: 'left'}}>
+                                  <div>
                                     <span className="margin-top">Phone Number:<a href="tel:512-577-0631"> 512-577-0631</a></span>
                                   </div>
                                 </div>
@@ -279,7 +279,7 @@ ReactDOM.render(
                               <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                 <div className="address-wrap animated fadeIndown1">
                                   <div className="col-md-3 icon-block"><i className="fa fa-envelope fa-2x" /></div>
-                                  <div style={{float: 'left'}}>
+                                  <div>
                                     <span className="margin-top add-mail">Email Address: <a href="mailto:bradleygamboa@gmail.com" target="_top">bradleygamboa@gmail.com</a></span>
                                   </div>
                                 </div>

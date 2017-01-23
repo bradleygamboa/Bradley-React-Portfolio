@@ -715,7 +715,7 @@
 	                            ),
 	                            React.createElement(
 	                              'div',
-	                              { style: { float: 'left' } },
+	                              null,
 	                              React.createElement(
 	                                'span',
 	                                { className: 'margin-top' },
@@ -742,7 +742,7 @@
 	                            ),
 	                            React.createElement(
 	                              'div',
-	                              { style: { float: 'left' } },
+	                              null,
 	                              React.createElement(
 	                                'span',
 	                                { className: 'margin-top add-mail' },
