@@ -36,18 +36,7 @@ ReactDOM.render(
                           <h1>Bradley Gamboa</h1>
                           <h5>Full Stack Developer</h5>
                         </div>
-                        {/* Text rotation */}
-                        <section className="cd-intro">
-                          <h4 className="cd-headline clip is-full-width">
-                            <span>I design</span> <br />
-                            <span className="cd-words-wrapper">
-                              <b className="is-visible">cool websites</b>
-                              <b>javascript apps</b>
-                              <b>awesome games</b>    
-                            </span>
-                          </h4>
-                        </section>
-                        {/* Text rotation */}
+
                         <div className="socials-icons">
                           {/* Social Icons */}
                           <div className="socials-icons-list padding-zero">
@@ -98,7 +87,7 @@ ReactDOM.render(
                                     <br />I have always been amazed with
                                     <br />her work. We collaborated to create
                                     <br />her a portfolio to show of her work to the world.</p>
-                                  <a className="btn project" target="_blank" href="http://www.elenaknapp.us">Check it out</a>
+                                  <a className="btn project" target="_blank" href="http://bradleygamboa.me/Elena-Knapp-Portfolio/">Check it out</a>
                                 </li>
                                 <li>
                                   <h3 className="name">www.Craftniss.com</h3>
@@ -107,7 +96,7 @@ ReactDOM.render(
                                     <br />to create a website where she could show off
                                     <br />her baby shoe making skills. With her talent
                                     <br />we joined up to create this work of art.</p>
-                                  <a className="btn project" target="_blank" href="http://www.craftniss.com">Check it out</a>
+                                  <a className="btn project" target="_blank" href="http://bradleygamboa.me/Iris-Lopez-Portfolio/">Check it out</a>
                                 </li>
                                 <li>
                                   <h3 className="name">Mars Explorer</h3>
@@ -135,7 +124,7 @@ ReactDOM.render(
                                     <br />Doctor Who twist to it as the nerd inside
                                     <br />me comes out in my projects. I also
                                     <br />made a Node.js version <a href="https://github.com/bradleygamboa/Hangman-Node-App" target="_blank">here</a>.</p>
-                                  <a className="btn project" target="_blank" href="https://doctor-who-hangman.herokuapp.com/">HTML/JavaScript version</a>
+                                  <a className="btn project" target="_blank" href="http://bradleygamboa.me/Doctor-Who-Hangman/">HTML/JavaScript version</a>
                                 </li>
                                 <li>
                                   <h3 className="name">Rock n Roll Triva</h3>
@@ -143,7 +132,7 @@ ReactDOM.render(
                                   <p className="desc">Test your Rock n Roll knowledge.
                                     <br />How hard do you rock!? This app was made
                                     <br /> with HTML, CSS, and Javascript.</p>
-                                  <a className="btn project" target="_blank" href="https://rock-n-roll-triva-game.herokuapp.com/">Ready to rock?</a>
+                                  <a className="btn project" target="_blank" href="http://bradleygamboa.me/Rock-n-Roll-Trivia/">Ready to rock?</a>
                                 </li>
                                 <li>
                                   <h3 className="name">Train Scheduler</h3>
@@ -151,7 +140,7 @@ ReactDOM.render(
                                   <p className="desc">This Train Scheduler app uses Firebase
                                     <br />to tack in real time when the next train will
                                     <br />arrive. You can even add your own.</p>
-                                  <a className="btn project" target="_blank" href="https://train-scheduler.herokuapp.com/">Book your ride</a>
+                                  <a className="btn project" target="_blank" href="http://bradleygamboa.me/Train-Scheduler-Firebase-App/">Book your ride</a>
                                 </li>
                               </ul>
                             </div>
@@ -270,17 +259,17 @@ ReactDOM.render(
                             <div className="row">
                               <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                 <div className="address-wrap animated fadeIndown1">
-                                  <div className="col-md-3 icon-block"><i className="fa fa-phone fa-2x" /></div>
-                                  <div>
+                                  <div className="col-md-3 icon-block"><i className="fa fa-phone fa-3x" /></div>
+                                  <div style={{float: 'left'}}>
                                     <span className="margin-top">Phone Number:<a href="tel:512-577-0631"> 512-577-0631</a></span>
                                   </div>
                                 </div>
                               </div>
                               <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                 <div className="address-wrap animated fadeIndown1">
-                                  <div className="col-md-3 icon-block"><i className="fa fa-envelope fa-2x" /></div>
-                                  <div>
-                                    <span className="margin-top add-mail">Email Address: <a href="mailto:bradleygamboa@gmail.com" target="_top">bradleygamboa@gmail.com</a></span>
+                                  <div className="col-md-3 icon-block"><i className="fa fa-envelope fa-3x" /></div>
+                                  <div style={{float: 'left'}}>
+                                    <span className="margin-top add-mail">Email: <a href="mailto:bradleygamboa@gmail.com" target="_top">bradleygamboa@gmail.com</a></span>
                                   </div>
                                 </div>
                               </div>

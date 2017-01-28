@@ -115,40 +115,6 @@
 	                    )
 	                  ),
 	                  React.createElement(
-	                    'section',
-	                    { className: 'cd-intro' },
-	                    React.createElement(
-	                      'h4',
-	                      { className: 'cd-headline clip is-full-width' },
-	                      React.createElement(
-	                        'span',
-	                        null,
-	                        'I design'
-	                      ),
-	                      ' ',
-	                      React.createElement('br', null),
-	                      React.createElement(
-	                        'span',
-	                        { className: 'cd-words-wrapper' },
-	                        React.createElement(
-	                          'b',
-	                          { className: 'is-visible' },
-	                          'cool websites'
-	                        ),
-	                        React.createElement(
-	                          'b',
-	                          null,
-	                          'javascript apps'
-	                        ),
-	                        React.createElement(
-	                          'b',
-	                          null,
-	                          'awesome games'
-	                        )
-	                      )
-	                    )
-	                  ),
-	                  React.createElement(
 	                    'div',
 	                    { className: 'socials-icons' },
 	                    React.createElement(
@@ -269,7 +235,7 @@
 	                            ),
 	                            React.createElement(
 	                              'a',
-	                              { className: 'btn project', target: '_blank', href: 'http://www.elenaknapp.us' },
+	                              { className: 'btn project', target: '_blank', href: 'http://bradleygamboa.me/Elena-Knapp-Portfolio/' },
 	                              'Check it out'
 	                            )
 	                          ),
@@ -295,7 +261,7 @@
 	                            ),
 	                            React.createElement(
 	                              'a',
-	                              { className: 'btn project', target: '_blank', href: 'http://www.craftniss.com' },
+	                              { className: 'btn project', target: '_blank', href: 'http://bradleygamboa.me/Iris-Lopez-Portfolio/' },
 	                              'Check it out'
 	                            )
 	                          ),
@@ -381,7 +347,7 @@
 	                            ),
 	                            React.createElement(
 	                              'a',
-	                              { className: 'btn project', target: '_blank', href: 'https://doctor-who-hangman.herokuapp.com/' },
+	                              { className: 'btn project', target: '_blank', href: 'http://bradleygamboa.me/Doctor-Who-Hangman/' },
 	                              'HTML/JavaScript version'
 	                            )
 	                          ),
@@ -405,7 +371,7 @@
 	                            ),
 	                            React.createElement(
 	                              'a',
-	                              { className: 'btn project', target: '_blank', href: 'https://rock-n-roll-triva-game.herokuapp.com/' },
+	                              { className: 'btn project', target: '_blank', href: 'http://bradleygamboa.me/Rock-n-Roll-Trivia/' },
 	                              'Ready to rock?'
 	                            )
 	                          ),
@@ -429,7 +395,7 @@
 	                            ),
 	                            React.createElement(
 	                              'a',
-	                              { className: 'btn project', target: '_blank', href: 'https://train-scheduler.herokuapp.com/' },
+	                              { className: 'btn project', target: '_blank', href: 'http://bradleygamboa.me/Train-Scheduler-Firebase-App/' },
 	                              'Book your ride'
 	                            )
 	                          )
@@ -711,11 +677,11 @@
 	                            React.createElement(
 	                              'div',
 	                              { className: 'col-md-3 icon-block' },
-	                              React.createElement('i', { className: 'fa fa-phone fa-2x' })
+	                              React.createElement('i', { className: 'fa fa-phone fa-3x' })
 	                            ),
 	                            React.createElement(
 	                              'div',
-	                              null,
+	                              { style: { float: 'left' } },
 	                              React.createElement(
 	                                'span',
 	                                { className: 'margin-top' },
@@ -738,15 +704,15 @@
 	                            React.createElement(
 	                              'div',
 	                              { className: 'col-md-3 icon-block' },
-	                              React.createElement('i', { className: 'fa fa-envelope fa-2x' })
+	                              React.createElement('i', { className: 'fa fa-envelope fa-3x' })
 	                            ),
 	                            React.createElement(
 	                              'div',
-	                              null,
+	                              { style: { float: 'left' } },
 	                              React.createElement(
 	                                'span',
 	                                { className: 'margin-top add-mail' },
-	                                'Email Address: ',
+	                                'Email: ',
 	                                React.createElement(
 	                                  'a',
 	                                  { href: 'mailto:bradleygamboa@gmail.com', target: '_top' },
