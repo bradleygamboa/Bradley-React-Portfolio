@@ -6,7 +6,7 @@
  */
 
 .test{
-    margin:0 0 0 -15px;
+    margin:0 0 0 -25px;
 }
 /* ==========================================================================
 Custom-Font
@@ -100,28 +100,28 @@ canvas {
 
 h1,
 .h1 {
-    font-size: 36px;
+    font-size: 42px;
 }
 
 h2,
 .h2 {
-    font-size: 30px;
+    font-size: 36px;
 }
 
 h3,
 .h3 {
-    font-size: 24px;
+    font-size: 30px;
     color: white;
 }
 
 h4,
 .h4 {
-    font-size: 18px;
+    font-size: 24px;
 }
 
 h5,
 .h5 {
-    font-size: 14px;
+    font-size: 18px;
 }
 
 h6,
@@ -151,7 +151,7 @@ Typography
 .heading h2 {
     font-family: "KaushanScript";
     color: #fff;
-    font-size: 44px;
+    font-size: 36px;
 }
 
 
@@ -333,7 +333,7 @@ Nav Overlay
 .overlay ul li a {
     display: block;
     padding: 25px 0;
-    min-width: 120px;
+    min-width: 95px;
     color: #fff;
     text-transform: uppercase;
     font-weight: 400;
@@ -592,7 +592,7 @@ Left Home
 .timer,
 .about,
 .contact {
-    padding-top: 1%;
+    padding-top: 2em;
 }
 
 .line {
@@ -656,6 +656,7 @@ Left Home
     width: 260px;
     background-image: url(../img/bradley.jpg);
     background-size: cover;
+    margin-top: 8em;
 }
 
 
@@ -773,24 +774,27 @@ Right Home
     -moz-transition: box-shadow 0.2s ease-in-out;
     transition: box-shadow 0.2s ease-in-out;
 }
-
 a{
     color: white;
     text-decoration: underline;
 }
 
+/* unvisited link */
 a:link {
     color: white;
 }
 
+/* visited link */
 a:visited {
     color: white;
 }
 
+/* mouse over link */
 a:hover {
     color: white;
 }
 
+/* selected link */
 a:active {
     color: white;
 }
@@ -850,7 +854,7 @@ Socials Icons
 
 .socials-icons {
     text-align: center;
-    padding-top: 2em;
+    padding-top: 4em;
 }
 
 .socials-icons-list .icon1,
@@ -1303,14 +1307,15 @@ New Button
 @media (max-width: 768px) {
     .overlay-left {
         display: none !important;
-    
+    }
 }
 
-@media (max-width: 359px) {
+@media (max-width: 375px) {
     .line {
         display: none;
     }
 }
+
 
 
 /* ==========================================================================
@@ -1380,7 +1385,7 @@ Text animation
 }
 
 @media only screen and (min-width: 1170px) {
-.cd-headline {
+    .cd-headline {
         font-size: 6rem;
     }
 }
